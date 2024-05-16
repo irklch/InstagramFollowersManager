@@ -9,19 +9,41 @@
 /* Begin PBXBuildFile section */
 		A942F6942BF6AAAD00AA7211 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A942F6932BF6AAAD00AA7211 /* AppDelegate.swift */; };
 		A942F6962BF6AAAD00AA7211 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A942F6952BF6AAAD00AA7211 /* SceneDelegate.swift */; };
-		A942F6982BF6AAAD00AA7211 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A942F6972BF6AAAD00AA7211 /* ViewController.swift */; };
+		A942F6982BF6AAAD00AA7211 /* MainScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A942F6972BF6AAAD00AA7211 /* MainScreenVC.swift */; };
 		A942F69D2BF6AAB000AA7211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A942F69C2BF6AAB000AA7211 /* Assets.xcassets */; };
 		A942F6A02BF6AAB000AA7211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A942F69E2BF6AAB000AA7211 /* LaunchScreen.storyboard */; };
+		A942F6A92BF6B0FE00AA7211 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A942F6A82BF6B0FE00AA7211 /* Bolts.framework */; };
+		A942F6AB2BF6B10B00AA7211 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A942F6AA2BF6B10B00AA7211 /* FBSDKCoreKit.framework */; };
+		A942F6AD2BF6B11300AA7211 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A942F6AC2BF6B11300AA7211 /* FBSDKLoginKit.framework */; };
+		A942F6AF2BF6B11C00AA7211 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A942F6AE2BF6B11C00AA7211 /* FBSDKShareKit.framework */; };
+		A96982C42BF6B6E500A3CE05 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A96982C32BF6B6E500A3CE05 /* SnapKit */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A96982BE2BF6B55C00A3CE05 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A942F6902BF6AAAD00AA7211 /* InstagramFollowersManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramFollowersManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A942F6932BF6AAAD00AA7211 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A942F6952BF6AAAD00AA7211 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A942F6972BF6AAAD00AA7211 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A942F6972BF6AAAD00AA7211 /* MainScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenVC.swift; sourceTree = "<group>"; };
 		A942F69C2BF6AAB000AA7211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A942F69F2BF6AAB000AA7211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A942F6A12BF6AAB000AA7211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A942F6A82BF6B0FE00AA7211 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		A942F6AA2BF6B10B00AA7211 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		A942F6AC2BF6B11300AA7211 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		A942F6AE2BF6B11C00AA7211 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A942F6AF2BF6B11C00AA7211 /* FBSDKShareKit.framework in Frameworks */,
+				A942F6A92BF6B0FE00AA7211 /* Bolts.framework in Frameworks */,
+				A942F6AB2BF6B10B00AA7211 /* FBSDKCoreKit.framework in Frameworks */,
+				A942F6AD2BF6B11300AA7211 /* FBSDKLoginKit.framework in Frameworks */,
+				A96982C42BF6B6E500A3CE05 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,7 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				A942F6922BF6AAAD00AA7211 /* InstagramFollowersManager */,
+				A942F6A72BF6B0E400AA7211 /* FacebookSDK */,
 				A942F6912BF6AAAD00AA7211 /* Products */,
+				A96982C22BF6B6D400A3CE05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +85,30 @@
 			children = (
 				A942F6932BF6AAAD00AA7211 /* AppDelegate.swift */,
 				A942F6952BF6AAAD00AA7211 /* SceneDelegate.swift */,
-				A942F6972BF6AAAD00AA7211 /* ViewController.swift */,
+				A942F6972BF6AAAD00AA7211 /* MainScreenVC.swift */,
 				A942F69C2BF6AAB000AA7211 /* Assets.xcassets */,
 				A942F69E2BF6AAB000AA7211 /* LaunchScreen.storyboard */,
 				A942F6A12BF6AAB000AA7211 /* Info.plist */,
 			);
 			path = InstagramFollowersManager;
+			sourceTree = "<group>";
+		};
+		A942F6A72BF6B0E400AA7211 /* FacebookSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A942F6A82BF6B0FE00AA7211 /* Bolts.framework */,
+				A942F6AA2BF6B10B00AA7211 /* FBSDKCoreKit.framework */,
+				A942F6AC2BF6B11300AA7211 /* FBSDKLoginKit.framework */,
+				A942F6AE2BF6B11C00AA7211 /* FBSDKShareKit.framework */,
+			);
+			path = FacebookSDK;
+			sourceTree = "<group>";
+		};
+		A96982C22BF6B6D400A3CE05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,12 +121,16 @@
 				A942F68C2BF6AAAD00AA7211 /* Sources */,
 				A942F68D2BF6AAAD00AA7211 /* Frameworks */,
 				A942F68E2BF6AAAD00AA7211 /* Resources */,
+				A96982BE2BF6B55C00A3CE05 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = InstagramFollowersManager;
+			packageProductDependencies = (
+				A96982C32BF6B6E500A3CE05 /* SnapKit */,
+			);
 			productName = InstagramFollowersManager;
 			productReference = A942F6902BF6AAAD00AA7211 /* InstagramFollowersManager.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +159,9 @@
 				Base,
 			);
 			mainGroup = A942F6872BF6AAAD00AA7211;
+			packageReferences = (
+				A96982BF2BF6B62C00A3CE05 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = A942F6912BF6AAAD00AA7211 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -134,7 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A942F6982BF6AAAD00AA7211 /* ViewController.swift in Sources */,
+				A942F6982BF6AAAD00AA7211 /* MainScreenVC.swift in Sources */,
 				A942F6942BF6AAAD00AA7211 /* AppDelegate.swift in Sources */,
 				A942F6962BF6AAAD00AA7211 /* SceneDelegate.swift in Sources */,
 			);
@@ -206,7 +260,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -263,7 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -281,17 +335,21 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CY87MBJTCB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDK",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = InstagramFollowersManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = irklch.InstagramFollowersManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -308,17 +366,21 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CY87MBJTCB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDK",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = InstagramFollowersManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = irklch.InstagramFollowersManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -349,6 +411,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A96982BF2BF6B62C00A3CE05 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A96982C32BF6B6E500A3CE05 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A96982BF2BF6B62C00A3CE05 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A942F6882BF6AAAD00AA7211 /* Project object */;
 }
